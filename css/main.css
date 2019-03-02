@@ -259,3 +259,106 @@ height:100%;
 	margin-left:40px;
 }
 
+
+.name{
+	font-size:20px;
+	margin-right:105px;
+}
+
+.kind{
+	font-size:20px;
+	margin-right:98px;
+}
+
+.breed{
+	font-size:20px;
+	margin-right:70px;
+}
+
+.gender{
+	font-size:20px;
+	margin-right:138px;
+}
+
+.charac{
+	font-size:20px;
+	margin-right:70px;
+}
+
+.age{
+	font-size:20px;
+	margin-right:170px;
+}
+
+.photo{
+	font-size:20px;
+	margin-right:32px;
+}
+
+.story{
+	font-size:20px;	
+}
+
+.name1{
+	margin-top:20px;
+	width:250px;
+	font-size:15px;
+	padding:5px;
+	border-radius:5px;
+}
+
+.breed-box{
+	margin-top:20px;
+	width:250px;
+	font-size:15px;
+	padding:5px;
+	border-radius:5px;
+}
+
+.rad1{
+	margin-top:20px;
+	font-size:15px;
+}
+
+.rad2{
+	margin-top:20px;
+	font-size:15px;
+}
+
+.character{
+	margin-top:20px;
+	font-size:15px;
+	padding:10px;
+}
+
+.age-select{
+	font-size:15px;
+	margin-top:20px;
+}
+
+.photo-box{
+	font-size:15px;
+	margin-top:20px;
+	
+}
+
+.story-box{
+	
+	margin-top:15px;
+}
+
+.sbros{
+	font-size:20px;
+	background: #00C1FF;
+	border-radius:5px; 
+	padding:5px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+}
+
+.myforma{
+	padding:80px;
+	font-size:20px;
+	
+}
