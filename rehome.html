@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Rehome a pet</title>
+</head>
+<body>
+    <header>
+		<div class="container">
+			<div class="heading clearfix">
+				<img src="img/logo.png" alt="pets" class="logo">
+				<nav>
+					<ul class="menu">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="rehome.html">Rehome a pet</a>
+						</li>
+						<li>
+							<a href="#">Find a pet</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="titles">
+				<div class="titles__first">
+					WELCOME ON PetsForAdoption
+				</div>
+				<h1>
+					Find a pet for you
+				</h1>
+			</div>
+			<a class="button" href="#">pick by preferences</a>
+		</div>
+	</header>
+    <div class="myforma">
+        <form ation="order.php" method="post">
+            <div>
+                <label>
+                    <span class="name">Pet's name:</span>
+                    <input class="name1" type="text" name="pet's_name"  placeholder="Write a name">
+                </label>
+            </div>
+            <div>
+                <label for="pet's_kind">
+                <span class="kind">Animal kind:</span>
+                </label>
+                    <input class="name1" type="text" name="pet's_kind"placeholder="Dog,cat,fish...">
+                
+            </div>
+            <div>
+                <label for="pet's_breed">
+                <span class="breed">Animal's breed:</span>
+                </label>
+                    <input class="breed-box" type="text" name="pet's_breed" placeholder="Write a breed">
+                
+            </div>
+            <div>
+                <label>
+                    <span class="gender">Gender:</span>
+                    <input class="rad1" type="radio" id="gendre" value="male">M
+                    <input class="rad2" type="radio" id="gendre" value="female">W
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span class="charac">Pet's character:</span>
+                    <input class="character" type="checkbox" name="extra" value="adaptive">Active
+                    <input type="checkbox" name="extra" value="hosting">Agressive
+                    <input type="checkbox" name="extra" value="adaptive">Kind
+                    <input type="checkbox" name="extra" value="adaptive">Annoying
+                    <input type="checkbox" name="extra" value="adaptive">Curious
+                    <input type="checkbox" name="extra" value="adaptive">Slow
+                </label>
+            </div>
+            <div>
+                    <label>
+                        <span class="age">Age:</span>
+                        <select class="age-select" name="type">
+                            <option value="baby">0-3</option>
+                            <option value="small">4-6</option>
+                            <option value="normal">7-9</option>
+                            <option value="adult">10-13</option>
+                            <option value="old">13+</option>
+                        </select>
+                    </label>
+                </div>
+            <div>
+                <label for="">
+                    <span class="photo">Picture of your pet:</span>
+                    <input class="photo-box" type="file" name="file">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    <span class="story">A small story:</span>
+                    <textarea class="story-box" name="comment" cols="30" rows="10" maxlength="100"></textarea>
+                </label>
+            </div>
+            <div>
+                <input class="sbros" type="reset" value="Reset">
+                <button class="sbros" name="submit">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
